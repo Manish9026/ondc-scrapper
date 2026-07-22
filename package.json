@@ -1,0 +1,14 @@
+{
+  "name": "highwaydelite-scraper",
+  "version": "1.0.0",
+  "description": "Playwright scraper for HighwayDelite Experience pages",
+  "type": "module",
+  "scripts": {
+    "scrape": "node scraper.js",
+    "scrape:url": "node scraper.js --url"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "playwright": "^1.52.0"
+  }
+}
